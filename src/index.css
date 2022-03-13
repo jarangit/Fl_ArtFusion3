@@ -11,7 +11,7 @@
   text-align: center;
   padding: 20px;
 }
-.label_covid > p > span{
+.label_box > p > span{
   color: red;
   font-weight: bold;
 }
@@ -34,3 +34,9 @@
   cursor: pointer;
 }
 
+/* @media only screen and (max-width: 414px) {
+  .label_box {
+    width: 300px;
+  }
+  
+} */

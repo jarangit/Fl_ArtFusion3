@@ -43,8 +43,19 @@ const SectionBetter = () => {
               <img src={item.img} alt="" />
               <div className="better_item_content">
                 <h2>{item.title}</h2>
-                <p>{item.content.length > 100 ? item.content.substring(0, 100)+ "..." : item.content}</p>
-                <button className="better_item_but">Get Started Now!</button>
+                <p>
+                  {item.content.length > 100
+                    ? item.content.substring(0, 100) + "..."
+                    : item.content}
+                </p>
+                <button
+                  className="better_item_but"
+                  onClick={() =>
+                    window.scrollTo({ top: 0, behavior: "smooth" })
+                  }
+                >
+                  Get Started Now!
+                </button>
               </div>
             </div>
           ))}

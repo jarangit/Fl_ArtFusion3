@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div style={{backgroundColor: "#E3E7EA"}} className="footer" >
-      <div className="jr_container">
+    <div style={{backgroundColor: "#E3E7EA", paddingTop: "20px"}} className="footer">
+      <div style={{fontSize: "12px", textAlign: "justify"}}  className="jr_container">
         <p>
           247flashloans.com (the "website") is not an offer or solicitation to
           lend. The website only provides a service and is not an agent,
@@ -34,7 +34,7 @@ const Footer = () => {
           reporting agencies, such as TransUnion, Experian and Equifax to
           evaluate your creditworthiness.
         </p>
-        <p>
+        <p style={{textAlign: "center", margin: "20px 0"}} >
         Copyright © 2015 - 2022 247flashloans.com - all rights reserved
         </p>
       </div>

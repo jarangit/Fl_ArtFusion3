@@ -46,6 +46,21 @@
 }
 
 /* Section we */
+.we_header{
+  text-align: center;
+  margin: 20px 0;
+  font-size: 22px;
+}
+.we_title > h5{
+  font-size: 16px;
+  margin: 10px 0;
+}
+.we_title > p{
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+
 .aq {
   padding: 20px;
 }

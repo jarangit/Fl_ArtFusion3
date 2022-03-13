@@ -19,7 +19,7 @@ const SectionWe = () => {
   };
 
   return (
-    <div>
+    <div className="we">
       <div className="jr_container">
         <div className="we_header">
           <h3>
@@ -71,7 +71,7 @@ const SectionWe = () => {
         </div>
 
         <div className="we_title">
-          <h3>How It Works</h3>
+          <h3 className="we_header">How It Works</h3>
           <h5>Fast, Easy & Secure Online Form.</h5>
           <p>
             247FlashLoans realizes that financial problems come unexpected and
@@ -91,7 +91,7 @@ const SectionWe = () => {
           </p>
         </div>
         <div className="we_title">
-          <h3>Frequently Asked Questions</h3>
+          <h3 className="we_header">Frequently Asked Questions</h3>
           {dataAQ?.map((item, key) => (
             <React.Fragment>
               <h5>{item.title}</h5>
@@ -101,7 +101,7 @@ const SectionWe = () => {
         </div>
 
         <div className="we_title">
-          <h3>Fees & Interest</h3>
+          <h3 className="we_header">Fees & Interest</h3>
           <p>
             247FlashLoans services will always be provided free of charge, but
             that is not to say that the lender will give you a loan for free.
