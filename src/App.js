@@ -1,6 +1,7 @@
 import "./App.css";
 import { useState } from "react";
 import Banner from "./components/Banner";
+import SectionBetter from "./components/sections/SectionBetter";
 
 function App() {
   const [openLable, setopenLable] = useState(true);
@@ -23,6 +24,7 @@ function App() {
       )}
 
       <Banner/>
+      <SectionBetter/>
     </div>
   );
 }
