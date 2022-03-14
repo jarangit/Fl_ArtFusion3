@@ -5,10 +5,12 @@ const Banner = () => {
   return (
     <div>
       <div className="header_banner">
-        <h1><span>24/7</span> flashloans</h1>
+        <h1>
+          <span>24/7</span> flashloans
+        </h1>
       </div>
       <div className="jr_container">
-        <div className="banner_title">
+        {/* <div className="banner_title">
           <strong>How much do you need?</strong>
           <div className="banner_chat">
             <img src="/img/worker.jpeg" alt="" className="banner_chat_img" />
@@ -19,7 +21,7 @@ const Banner = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
         <div id="_lg_form_"></div>
 
         <div className="banner_footer">
