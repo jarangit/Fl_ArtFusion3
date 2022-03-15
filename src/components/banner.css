@@ -1,10 +1,10 @@
-.header_banner{
+.header_banner {
   text-align: center;
   background-color: #f7f7f7;
   padding: 20px;
 }
-.header_banner >h1 > span {
-  color: #66CD00;
+.header_banner > h1 > span {
+  color: #66cd00;
 }
 
 .banner_title {
@@ -51,4 +51,11 @@
 .banner_footer > p {
   font-size: 12px;
   color: #969696;
+}
+.banner_count_down_time {
+  text-align: center;
+}
+.banner_count_down_time > div > span {
+  font-weight: bolder;
+  margin-left: 5px;
 }

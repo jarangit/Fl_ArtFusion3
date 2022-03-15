@@ -2,8 +2,6 @@ import React from "react";
 import { dataAQ } from "../../data/dataAQ";
 import { dataAccoding } from "../../data/dataAccoding";
 const SectionWe = () => {
- 
-
   const Accordion = ({ data: { title, content } }) => {
     const [isOpen, setOpen] = React.useState(false);
     return (
@@ -65,7 +63,9 @@ const SectionWe = () => {
           </p>
 
           {dataAccoding.map((item, key) => (
-            <Accordion data={item} />
+            <React.Fragment key={key}>
+              <Accordion data={item} />
+            </React.Fragment>
           ))}
           <hr />
         </div>
@@ -93,7 +93,7 @@ const SectionWe = () => {
         <div className="we_title">
           <h3 className="we_header">Frequently Asked Questions</h3>
           {dataAQ?.map((item, key) => (
-            <React.Fragment>
+            <React.Fragment key={key}>
               <h5>{item.title}</h5>
               <p>{item.content}</p>
             </React.Fragment>
